@@ -233,8 +233,9 @@ export function generateStaticParams() {
   }))
 }
 
-export default function ProductDetailPage({ params }: { params: { slug: string } }) {
-  const product = products[params.slug as keyof typeof products]
+export default async function ProductDetailPage({ params }: { params: Promise<{ slug: string }> | { slug: string } }) {
+  const { slug } = (await params) as { slug: string }
+  const product = products[slug as keyof typeof products]
 
   if (!product) {
     notFound()
