@@ -233,11 +233,11 @@ export function ProductDetailContent({ product }: { product: Product }) {
           <h2 className="font-serif text-3xl md:text-4xl font-bold mb-8">Why Choose This Product?</h2>
           <div className="space-y-4">
             {product.whyChoose.map((reason, idx) => (
-              <div key={idx} className="flex items-start gap-4 bg-primary-foreground/10 p-6 rounded-lg backdrop-blur">
+              <div key={idx} className="flex flex-col sm:flex-row items-start gap-4 bg-primary-foreground/10 p-6 rounded-lg backdrop-blur">
                 <div className="w-8 h-8 rounded-full bg-primary-foreground/20 flex items-center justify-center flex-shrink-0">
                   <span className="font-bold">{idx + 1}</span>
                 </div>
-                <p className="text-primary-foreground/90 leading-relaxed">{reason}</p>
+                <p className="text-primary-foreground/90 leading-relaxed min-w-0 break-words whitespace-normal">{reason}</p>
               </div>
             ))}
           </div>

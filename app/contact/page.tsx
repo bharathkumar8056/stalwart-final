@@ -111,22 +111,22 @@ export default function ContactPage() {
 
                 <Card className="border-2">
                   <CardContent className="p-6 space-y-4">
-                    <div className="flex items-start gap-4">
-                      <MapPin className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
-                      <div>
-                        <h3 className="font-semibold mb-1">Stalwart Export Services</h3>
-                        <p className="text-sm text-muted-foreground leading-relaxed">
-                          Plot no.5, NGGO colony,
-                          <br />
-                          Bakkiyalakshmi Nagar,
-                          <br />
-                          Villupuram, Tamil Nadu 605602
-                          <br />
-                          India
-                        </p>
+                      <div className="flex flex-col sm:flex-row items-start gap-4">
+                        <MapPin className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
+                        <div className="min-w-0">
+                          <h3 className="font-semibold mb-1">Stalwart Export Services</h3>
+                          <p className="text-sm text-muted-foreground leading-relaxed break-words whitespace-normal">
+                            Plot no.5, NGGO colony,
+                            <br />
+                            Bakkiyalakshmi Nagar,
+                            <br />
+                            Villupuram, Tamil Nadu 605602
+                            <br />
+                            India
+                          </p>
+                        </div>
                       </div>
-                    </div>
-                  </CardContent>
+                    </CardContent>
                 </Card>
 
                 <div className="flex flex-col sm:flex-row gap-4">

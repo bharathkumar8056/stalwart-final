@@ -137,14 +137,14 @@ export default function AboutPage() {
                   Privacy Policy
                 </h2>
                 <div className="space-y-8">
-                  <div className="space-y-5 p-8 rounded-2xl bg-gradient-to-br from-secondary/40 to-secondary/20 border-2 border-border/50 hover:border-primary/30 transition-all">
-                    <div className="flex items-start gap-4">
+                  <div className="space-y-5 overflow-hidden p-4 sm:p-6 md:p-8 rounded-2xl bg-gradient-to-br from-secondary/40 to-secondary/20 border-2 border-border/50 hover:border-primary/30 transition-all">
+                    <div className="flex flex-col sm:flex-row items-start gap-4">
                       <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0 shadow-md">
                         <Shield className="h-6 w-6 text-primary" />
                       </div>
-                      <div className="flex-1">
-                        <h3 className="font-bold text-xl mb-3 text-foreground">Information Collection</h3>
-                        <p className="text-muted-foreground leading-relaxed">
+                      <div className="flex-1 min-w-0">
+                        <h3 className="font-bold text-lg sm:text-xl mb-3 text-foreground">Information Collection</h3>
+                        <p className="text-sm sm:text-base text-muted-foreground leading-relaxed break-words whitespace-normal">
                           Stalwart Export Services collects personal information including name, email address, phone
                           number, shipping address, and business details when you place an order, request a quote, or
                           contact us. This information is used solely to process your orders, respond to inquiries, and
@@ -154,14 +154,14 @@ export default function AboutPage() {
                     </div>
                   </div>
 
-                  <div className="space-y-5 p-8 rounded-2xl bg-gradient-to-br from-secondary/40 to-secondary/20 border-2 border-border/50 hover:border-primary/30 transition-all">
-                    <div className="flex items-start gap-4">
+                  <div className="space-y-5 overflow-hidden p-4 sm:p-6 md:p-8 rounded-2xl bg-gradient-to-br from-secondary/40 to-secondary/20 border-2 border-border/50 hover:border-primary/30 transition-all">
+                    <div className="flex flex-col sm:flex-row items-start gap-4">
                       <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0 shadow-md">
                         <Shield className="h-6 w-6 text-primary" />
                       </div>
-                      <div className="flex-1">
-                        <h3 className="font-bold text-xl mb-3 text-foreground">Data Protection</h3>
-                        <p className="text-muted-foreground leading-relaxed">
+                      <div className="flex-1 min-w-0">
+                        <h3 className="font-bold text-lg sm:text-xl mb-3 text-foreground">Data Protection</h3>
+                        <p className="text-sm sm:text-base text-muted-foreground leading-relaxed break-words whitespace-normal">
                           We implement appropriate security measures to protect your personal information from
                           unauthorized access, alteration, disclosure, or destruction. Your data is stored securely and
                           is never shared with third parties without your explicit consent, except as required by law or
@@ -171,14 +171,14 @@ export default function AboutPage() {
                     </div>
                   </div>
 
-                  <div className="space-y-5 p-8 rounded-2xl bg-gradient-to-br from-secondary/40 to-secondary/20 border-2 border-border/50 hover:border-primary/30 transition-all">
-                    <div className="flex items-start gap-4">
+                  <div className="space-y-5 overflow-hidden p-4 sm:p-6 md:p-8 rounded-2xl bg-gradient-to-br from-secondary/40 to-secondary/20 border-2 border-border/50 hover:border-primary/30 transition-all">
+                    <div className="flex flex-col sm:flex-row items-start gap-4">
                       <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0 shadow-md">
                         <Shield className="h-6 w-6 text-primary" />
                       </div>
-                      <div className="flex-1">
-                        <h3 className="font-bold text-xl mb-3 text-foreground">Cookies & Tracking</h3>
-                        <p className="text-muted-foreground leading-relaxed">
+                      <div className="flex-1 min-w-0">
+                        <h3 className="font-bold text-lg sm:text-xl mb-3 text-foreground">Cookies & Tracking</h3>
+                        <p className="text-sm sm:text-base text-muted-foreground leading-relaxed break-words whitespace-normal">
                           Our website may use cookies to enhance user experience and analyze site traffic. You can
                           choose to disable cookies through your browser settings, though this may affect certain
                           website functionalities.
@@ -187,14 +187,14 @@ export default function AboutPage() {
                     </div>
                   </div>
 
-                  <div className="space-y-5 p-8 rounded-2xl bg-gradient-to-br from-secondary/40 to-secondary/20 border-2 border-border/50 hover:border-primary/30 transition-all">
-                    <div className="flex items-start gap-4">
+                  <div className="space-y-5 overflow-hidden p-4 sm:p-6 md:p-8 rounded-2xl bg-gradient-to-br from-secondary/40 to-secondary/20 border-2 border-border/50 hover:border-primary/30 transition-all">
+                    <div className="flex flex-col sm:flex-row items-start gap-4">
                       <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0 shadow-md">
                         <Users className="h-6 w-6 text-primary" />
                       </div>
-                      <div className="flex-1">
-                        <h3 className="font-bold text-xl mb-3 text-foreground">Your Rights</h3>
-                        <p className="text-muted-foreground leading-relaxed">
+                      <div className="flex-1 min-w-0">
+                        <h3 className="font-bold text-lg sm:text-xl mb-3 text-foreground">Your Rights</h3>
+                        <p className="text-sm sm:text-base text-muted-foreground leading-relaxed break-words whitespace-normal">
                           You have the right to access, correct, or delete your personal information at any time. To
                           exercise these rights or if you have questions about our privacy practices, please contact us
                           at info@stalwartexport.com or call +91 9677199951.
@@ -217,14 +217,14 @@ export default function AboutPage() {
                   Terms of Service
                 </h2>
                 <div className="space-y-8">
-                  <div className="space-y-5 p-8 rounded-2xl bg-gradient-to-br from-secondary/40 to-secondary/20 border-2 border-border/50 hover:border-primary/30 transition-all">
-                    <div className="flex items-start gap-4">
+                  <div className="space-y-5 overflow-hidden p-4 sm:p-6 md:p-8 rounded-2xl bg-gradient-to-br from-secondary/40 to-secondary/20 border-2 border-border/50 hover:border-primary/30 transition-all">
+                    <div className="flex flex-col sm:flex-row items-start gap-4">
                       <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0 shadow-md">
                         <Award className="h-6 w-6 text-primary" />
                       </div>
-                      <div className="flex-1">
-                        <h3 className="font-bold text-xl mb-3 text-foreground">Order Acceptance</h3>
-                        <p className="text-muted-foreground leading-relaxed">
+                      <div className="flex-1 min-w-0">
+                        <h3 className="font-bold text-lg sm:text-xl mb-3 text-foreground">Order Acceptance</h3>
+                        <p className="text-sm sm:text-base text-muted-foreground leading-relaxed break-words whitespace-normal">
                           All orders are subject to acceptance and product availability. We reserve the right to refuse
                           or cancel any order for any reason, including product unavailability, pricing errors, or
                           suspected fraudulent activity. Confirmation of your order will be sent via email.
@@ -233,14 +233,14 @@ export default function AboutPage() {
                     </div>
                   </div>
 
-                  <div className="space-y-5 p-8 rounded-2xl bg-gradient-to-br from-secondary/40 to-secondary/20 border-2 border-border/50 hover:border-primary/30 transition-all">
-                    <div className="flex items-start gap-4">
+                  <div className="space-y-5 overflow-hidden p-4 sm:p-6 md:p-8 rounded-2xl bg-gradient-to-br from-secondary/40 to-secondary/20 border-2 border-border/50 hover:border-primary/30 transition-all">
+                    <div className="flex flex-col sm:flex-row items-start gap-4">
                       <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0 shadow-md">
                         <Award className="h-6 w-6 text-primary" />
                       </div>
-                      <div className="flex-1">
-                        <h3 className="font-bold text-xl mb-3 text-foreground">Pricing & Payment</h3>
-                        <p className="text-muted-foreground leading-relaxed">
+                      <div className="flex-1 min-w-0">
+                        <h3 className="font-bold text-lg sm:text-xl mb-3 text-foreground">Pricing & Payment</h3>
+                        <p className="text-sm sm:text-base text-muted-foreground leading-relaxed break-words whitespace-normal">
                           All prices are quoted in US Dollars and are subject to change without notice. Payment terms
                           include Letter of Credit (LC) or 50% advance payment with the balance due before shipping
                           document release. Prices do not include customs duties, taxes, or import fees, which are the
@@ -250,14 +250,14 @@ export default function AboutPage() {
                     </div>
                   </div>
 
-                  <div className="space-y-5 p-8 rounded-2xl bg-gradient-to-br from-secondary/40 to-secondary/20 border-2 border-border/50 hover:border-primary/30 transition-all">
-                    <div className="flex items-start gap-4">
+                  <div className="space-y-5 p-4 sm:p-6 md:p-8 rounded-2xl bg-gradient-to-br from-secondary/40 to-secondary/20 border-2 border-border/50 hover:border-primary/30 transition-all">
+                    <div className="flex flex-col sm:flex-row items-start gap-4">
                       <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0 shadow-md">
                         <Award className="h-6 w-6 text-primary" />
                       </div>
-                      <div className="flex-1">
-                        <h3 className="font-bold text-xl mb-3 text-foreground">Shipping & Delivery</h3>
-                        <p className="text-muted-foreground leading-relaxed">
+                      <div className="flex-1 min-w-0">
+                        <h3 className="font-bold text-lg sm:text-xl mb-3 text-foreground">Shipping & Delivery</h3>
+                        <p className="text-sm sm:text-base text-muted-foreground leading-relaxed break-words whitespace-normal">
                           Lead times typically range from 2-6 weeks depending on order size and destination. Shipping
                           costs are calculated based on weight, dimensions, destination, and selected shipping method.
                           We are not liable for delays caused by customs, weather, or carrier issues beyond our control.
@@ -266,14 +266,14 @@ export default function AboutPage() {
                     </div>
                   </div>
 
-                  <div className="space-y-5 p-8 rounded-2xl bg-gradient-to-br from-secondary/40 to-secondary/20 border-2 border-border/50 hover:border-primary/30 transition-all">
-                    <div className="flex items-start gap-4">
+                  <div className="space-y-5 p-4 sm:p-6 md:p-8 rounded-2xl bg-gradient-to-br from-secondary/40 to-secondary/20 border-2 border-border/50 hover:border-primary/30 transition-all">
+                    <div className="flex flex-col sm:flex-row items-start gap-4">
                       <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0 shadow-md">
                         <Award className="h-6 w-6 text-primary" />
                       </div>
-                      <div className="flex-1">
-                        <h3 className="font-bold text-xl mb-3 text-foreground">Returns & Refunds</h3>
-                        <p className="text-muted-foreground leading-relaxed">
+                      <div className="flex-1 min-w-0">
+                        <h3 className="font-bold text-lg sm:text-xl mb-3 text-foreground">Returns & Refunds</h3>
+                        <p className="text-sm sm:text-base text-muted-foreground leading-relaxed break-words whitespace-normal">
                           Due to the nature of our products, returns are only accepted for damaged or defective items.
                           Claims must be reported within 7 days of delivery with photographic evidence. Refunds or
                           replacements will be issued at our discretion after investigation.
@@ -282,14 +282,14 @@ export default function AboutPage() {
                     </div>
                   </div>
 
-                  <div className="space-y-5 p-8 rounded-2xl bg-gradient-to-br from-secondary/40 to-secondary/20 border-2 border-border/50 hover:border-primary/30 transition-all">
-                    <div className="flex items-start gap-4">
+                  <div className="space-y-5 p-4 sm:p-6 md:p-8 rounded-2xl bg-gradient-to-br from-secondary/40 to-secondary/20 border-2 border-border/50 hover:border-primary/30 transition-all">
+                    <div className="flex flex-col sm:flex-row items-start gap-4">
                       <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0 shadow-md">
                         <Shield className="h-6 w-6 text-primary" />
                       </div>
-                      <div className="flex-1">
-                        <h3 className="font-bold text-xl mb-3 text-foreground">Limitation of Liability</h3>
-                        <p className="text-muted-foreground leading-relaxed">
+                      <div className="flex-1 min-w-0">
+                        <h3 className="font-bold text-lg sm:text-xl mb-3 text-foreground">Limitation of Liability</h3>
+                        <p className="text-sm sm:text-base text-muted-foreground leading-relaxed break-words whitespace-normal">
                           Stalwart Export Services shall not be liable for any indirect, incidental, or consequential
                           damages arising from the use of our products or services. Our total liability is limited to
                           the purchase price of the products in question.
@@ -298,14 +298,14 @@ export default function AboutPage() {
                     </div>
                   </div>
 
-                  <div className="space-y-5 p-8 rounded-2xl bg-gradient-to-br from-secondary/40 to-secondary/20 border-2 border-border/50 hover:border-primary/30 transition-all">
-                    <div className="flex items-start gap-4">
+                  <div className="space-y-5 p-4 sm:p-6 md:p-8 rounded-2xl bg-gradient-to-br from-secondary/40 to-secondary/20 border-2 border-border/50 hover:border-primary/30 transition-all">
+                    <div className="flex flex-col sm:flex-row items-start gap-4">
                       <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0 shadow-md">
                         <Users className="h-6 w-6 text-primary" />
                       </div>
-                      <div className="flex-1">
-                        <h3 className="font-bold text-xl mb-3 text-foreground">Contact Information</h3>
-                        <p className="text-muted-foreground leading-relaxed">
+                      <div className="flex-1 min-w-0">
+                        <h3 className="font-bold text-lg sm:text-xl mb-3 text-foreground">Contact Information</h3>
+                        <p className="text-sm sm:text-base text-muted-foreground leading-relaxed break-words whitespace-normal">
                           For questions regarding these terms, please contact us at: Stalwart Export Services, Plot
                           no.5, NGGO colony, Bakkiyalakshmi Nagar, Villupuram, 605602. Phone: +91 9677199951
                         </p>
