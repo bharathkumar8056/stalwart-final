@@ -48,10 +48,12 @@ export default function ContactPage() {
                   </div>
                   <h3 className="font-semibold">Email</h3>
                   <a
-                    href="mailto:info@stalwartexport.com"
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=stalwartexportservices@gmail.com&su=Quote+Request&body=Hi%2C+I+would+like+to+get+a+quote+for+your+products."
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-sm text-muted-foreground hover:text-primary transition-colors block"
                   >
-                    info@stalwartexport.com
+                   stalwartexportservices@gmail.com
                   </a>
                 </CardContent>
               </Card>
@@ -140,7 +142,9 @@ export default function ContactPage() {
                     WhatsApp Us
                   </a>
                   <a
-                    href="mailto:info@stalwartexport.com"
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=stalwartexportservices@gmail.com&su=Quote+Request&body=Hi%2C+I+would+like+to+get+a+quote+for+your+products."
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center justify-center px-6 py-3 rounded-lg border-2 border-border hover:bg-secondary transition-colors font-medium shadow-md hover:shadow-lg"
                   >
                     <Mail className="mr-2 h-5 w-5" />
