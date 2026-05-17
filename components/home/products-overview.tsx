@@ -40,6 +40,14 @@ const products = [
     image: "/white-medical-couch-roll-paper-on-examination-bed-.jpg",
     features: ["2-3 Ply", "50cm Width", "High Absorbency"],
   },
+  {
+    id: "paper-bags",
+    name: "Premium Paper Bags",
+    description:
+      "Load-bearing kraft paper bags for retail, foodservice, and e-commerce — certified recyclable and biodegradable.",
+    image: "/assets/paper-bag-main.jpg",
+    features: ["Kraft / Recycled", "SOS · Twisted · Food", "100% Recyclable"],
+  },
 ]
 
 export function ProductsOverview() {

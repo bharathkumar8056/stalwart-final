@@ -225,6 +225,82 @@ const products = {
       "Customizable lengths available",
     ],
   },
+  "paper-bags": {
+    id: "paper-bags",
+    name: "Premium Paper Bags",
+    category: "Packaging",
+    shortDescription:
+      "From raw kraft to finished bag — our paper bags are engineered for load-bearing performance, retail presentation, and sustainability. Trusted by brands across retail, foodservice, and e-commerce.",
+    fullDescription:
+      "Our premium paper bags start with certified virgin or recycled kraft pulp — selected for tensile strength, tear resistance, and a clean surface that holds print beautifully. From raw kraft to finished bag, every piece is engineered for load-bearing performance and retail presentation. Whether you're packing groceries, gifting, or shipping, there is a bag configuration built for your exact need. Trusted by brands across retail, foodservice, and e-commerce, our bags combine functional durability with sustainability credentials that your buyers increasingly demand.",
+    images: ["/assets/paper-bag-main.jpg", 
+      "/assets/paper-bags-twisted-handle-retail.jpg",
+       "/assets/eco-friendly-paper-bags.jpg"],
+    specifications: {
+      ply: "Single / Multi-Wall",
+      material: "Certified Virgin or Recycled Kraft Pulp",
+      gsm: "70–120 GSM (customizable)",
+      types: ["SOS / Block Bottom", "Twisted Handle", "Food Bags"],
+      lining: "Grease-resistant available for Food Bags",
+      printing: "Custom branding & full-colour print ready",
+    },
+    useCases: [
+      "Retail boutiques and fashion brands",
+      "Grocery and supermarket checkout",
+      "Bakery, deli, and takeaway foodservice",
+      "E-commerce fulfillment and shipping",
+      "Gift packaging and boutique retail",
+      "Corporate gifting and events",
+    ],
+    benefits: [
+      "Load-bearing kraft construction handles heavy items without tearing",
+      "Clean surface optimised for high-quality custom print",
+      "100% recyclable and biodegradable — no plastic liners or mixed materials",
+      "40% lower CO₂ vs. comparable single-use plastic alternatives",
+      "Grease-resistant lining available for food and bakery applications",
+      "Self-opening SOS style stands upright for checkout convenience",
+    ],
+    whyChoose: [
+      "Certified virgin or recycled kraft pulp selected for tensile strength and tear resistance — quality starts at the raw material",
+      "Comprehensive bag format range — SOS Block Bottom, Twisted Handle, and Food Bags cover every retail and foodservice use case",
+      "Sustainability credentials backed by life-cycle analysis: 100% recyclable, biodegradable, and 40% lower carbon than plastic alternatives",
+      "Print-ready surface and custom branding support for full brand visibility across every bag",
+      "Trusted by retail, foodservice, and e-commerce brands across 50+ countries with reliable bulk supply",
+    ],
+    differentiator:
+      "Every bag starts with certified virgin or recycled kraft pulp — selected for tensile strength, tear resistance, and a clean surface that holds print beautifully.",
+    bagTypes: [
+      {
+        name: "SOS / Block Bottom",
+        description:
+          "Self-opening style with square base. Stands upright on checkout counters. Ideal for grocery and retail.",
+      },
+      {
+        name: "Twisted Handle",
+        description:
+          "Premium look with twisted paper handles. Preferred for boutique retail, fashion, and gift packaging.",
+      },
+      {
+        name: "Food Bags",
+        description:
+          "Grease-resistant lining, wide gusset for bulky items. Built for bakery, deli, and takeaway.",
+      },
+    ],
+    sustainability: [
+      {
+        stat: "100%",
+        label: "Recyclable & Biodegradable",
+        description:
+          "All our bags are certified recyclable in standard kerbside paper streams. No plastic liners, no mixed materials that complicate sorting.",
+      },
+      {
+        stat: "−40%",
+        label: "Lower Carbon vs. Plastic",
+        description:
+          "Life-cycle analysis shows our kraft bags produce 40% less CO₂ equivalent than comparable single-use plastic alternatives.",
+      },
+    ],
+  },
 }
 
 export function generateStaticParams() {

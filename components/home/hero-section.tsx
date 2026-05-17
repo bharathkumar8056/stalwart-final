@@ -24,7 +24,7 @@ export function HeroSection() {
             <div className="space-y-4">
               <p className="text-base md:text-lg text-foreground/80 leading-relaxed">
                 Leading exporter of high-quality tissue paper products including facial tissues, paper napkins, kitchen
-                towels, toilet rolls, and medical-grade couch rolls. We specialize in delivering premium, sustainable
+                towels, toilet rolls, medical-grade couch rolls and paper bags. We specialize in delivering premium, sustainable
                 products to B2B and B2C customers worldwide with exceptional quality standards.
               </p>
               <p className="text-base text-foreground/70 leading-relaxed">

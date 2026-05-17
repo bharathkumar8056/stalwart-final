@@ -60,6 +60,17 @@ const products = [
     sizes: ["50cm width"],
     packaging: ["Roll"],
   },
+  {
+    id: "paper-bags",
+    name: "Premium Paper Bags",
+    category: "Packaging",
+    description:
+      "Load-bearing kraft paper bags engineered for retail presentation, foodservice, and e-commerce — certified recyclable and biodegradable.",
+    image: "/assets/paper-bag-main.jpg",
+    ply: "Single / Multi-Wall",
+    sizes: ["SOS Block Bottom", "Twisted Handle", "Food Bags"],
+    packaging: ["Custom Branding Available"],
+  },
 ]
 
 const categories = [
@@ -68,6 +79,7 @@ const categories = [
   "Dining & Hospitality",
   "Kitchen & Cleaning",
   "Medical & Healthcare",
+  "Packaging",
 ]
 
 export default function ProductsPage() {

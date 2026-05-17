@@ -6,6 +6,17 @@ import Link from "next/link"
 import { ArrowLeft, Check, MessageCircle, Package, Truck, Shield, ChevronLeft, ChevronRight } from "lucide-react"
 import { useState } from "react"
 
+interface BagType {
+  name: string
+  description: string
+}
+
+interface SustainabilityStat {
+  stat: string
+  label: string
+  description: string
+}
+
 interface Product {
   id: string
   name: string
@@ -17,6 +28,9 @@ interface Product {
   useCases: string[]
   benefits: string[]
   whyChoose: string[]
+  differentiator?: string
+  bagTypes?: BagType[]
+  sustainability?: SustainabilityStat[]
 }
 
 export function ProductDetailContent({ product }: { product: Product }) {
@@ -164,6 +178,18 @@ export function ProductDetailContent({ product }: { product: Product }) {
         </div>
       </section>
 
+      {/* What Makes It Different */}
+      {product.differentiator && (
+        <section className="py-16">
+          <div className="container max-w-5xl">
+            <h2 className="font-serif text-3xl md:text-4xl font-bold mb-6">
+              What Makes Our {product.name} Different
+            </h2>
+            <p className="text-lg text-muted-foreground leading-relaxed">{product.differentiator}</p>
+          </div>
+        </section>
+      )}
+
       {/* Specifications */}
       <section className="py-16 bg-secondary/20">
         <div className="container max-w-5xl">
@@ -192,6 +218,34 @@ export function ProductDetailContent({ product }: { product: Product }) {
           <p className="text-lg text-muted-foreground leading-relaxed">{product.fullDescription}</p>
         </div>
       </section>
+
+      {/* Bag Types & Applications */}
+      {product.bagTypes && (
+        <section className="py-16 bg-secondary/20">
+          <div className="container max-w-5xl">
+            <div className="mb-10 space-y-3">
+              <h2 className="font-serif text-3xl md:text-4xl font-bold">Bag Types & Applications</h2>
+              <p className="text-primary font-semibold text-lg">A Format for Every Use Case</p>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Whether you're packing groceries, gifting, or shipping — there's a bag configuration engineered for your exact need.
+              </p>
+            </div>
+            <div className="grid sm:grid-cols-3 gap-6">
+              {product.bagTypes.map((type, idx) => (
+                <Card key={idx} className="border-2 hover:shadow-lg transition-all">
+                  <CardContent className="p-6 space-y-3">
+                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
+                      <Package className="h-5 w-5 text-primary" />
+                    </div>
+                    <h3 className="font-serif text-lg font-bold">{type.name}</h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed">{type.description}</p>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Use Cases */}
       <section className="py-16 bg-secondary/20">
@@ -226,6 +280,30 @@ export function ProductDetailContent({ product }: { product: Product }) {
           </div>
         </div>
       </section>
+
+      {/* Sustainability Credentials */}
+      {product.sustainability && (
+        <section className="py-16 bg-emerald-700 text-white">
+          <div className="container max-w-5xl">
+            <div className="mb-10 space-y-3">
+              <h2 className="font-serif text-3xl md:text-4xl font-bold">Sustainability Credentials</h2>
+              <p className="text-emerald-200 font-semibold text-lg">Packaging that doesn't cost the planet.</p>
+              <p className="text-emerald-100/90 text-lg leading-relaxed">
+                Buyers increasingly choose suppliers who can back up their sustainability claims with numbers. Here are ours.
+              </p>
+            </div>
+            <div className="grid sm:grid-cols-2 gap-8">
+              {product.sustainability.map((item, idx) => (
+                <div key={idx} className="bg-white/10 backdrop-blur rounded-2xl p-8 space-y-3 border border-white/20">
+                  <div className="font-serif text-6xl font-bold text-white">{item.stat}</div>
+                  <div className="font-semibold text-xl text-emerald-100">{item.label}</div>
+                  <p className="text-emerald-100/80 text-sm leading-relaxed">{item.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Why Choose */}
       <section className="py-16 bg-primary text-primary-foreground">
