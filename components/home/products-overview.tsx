@@ -45,7 +45,7 @@ const products = [
     name: "Premium Paper Bags",
     description:
       "Load-bearing kraft paper bags for retail, foodservice, and e-commerce — certified recyclable and biodegradable.",
-    image: "/assets/paper-bag-main.jpg",
+    image: "/assets/brown-white-paper-bags-comparison-collage.jpg",
     features: ["Kraft / Recycled", "SOS · Twisted · Food", "100% Recyclable"],
   },
 ]

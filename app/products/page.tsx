@@ -66,7 +66,7 @@ const products = [
     category: "Packaging",
     description:
       "Load-bearing kraft paper bags engineered for retail presentation, foodservice, and e-commerce — certified recyclable and biodegradable.",
-    image: "/assets/paper-bag-main.jpg",
+    image: "/assets/brown-white-paper-bags-comparison-collage.jpg",
     ply: "Single / Multi-Wall",
     sizes: ["SOS Block Bottom", "Twisted Handle", "Food Bags"],
     packaging: ["Custom Branding Available"],

@@ -234,7 +234,7 @@ const products = {
     fullDescription:
       "Our premium paper bags start with certified virgin or recycled kraft pulp — selected for tensile strength, tear resistance, and a clean surface that holds print beautifully. From raw kraft to finished bag, every piece is engineered for load-bearing performance and retail presentation. Whether you're packing groceries, gifting, or shipping, there is a bag configuration built for your exact need. Trusted by brands across retail, foodservice, and e-commerce, our bags combine functional durability with sustainability credentials that your buyers increasingly demand.",
     images: ["/assets/paper-bag-main.jpg", 
-      "/assets/paper-bags-twisted-handle-retail.jpg",
+      "/assets/white-kraft-paper-bag-premium.jpg",
        "/assets/eco-friendly-paper-bags.jpg"],
     specifications: {
       ply: "Single / Multi-Wall",

@@ -115,6 +115,14 @@ export function Footer() {
                   Couch Rolls
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/products/paper-bags"
+                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                >
+                  Paper Bags
+                </Link>
+              </li>
             </ul>
           </div>
 
